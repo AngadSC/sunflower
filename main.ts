@@ -10,7 +10,7 @@ basic.forever(function () {
 })
 basic.forever(function () {
     pins.servoWritePin(AnalogPin.P4, pins.map(
-    pins.analogReadPin(AnalogPin.P2),
+    pins.analogReadPin(AnalogPin.P1),
     0,
     1023,
     10,
@@ -19,7 +19,7 @@ basic.forever(function () {
 })
 basic.forever(function () {
     pins.servoWritePin(AnalogPin.P4, pins.map(
-    pins.analogReadPin(AnalogPin.P1),
+    pins.analogReadPin(AnalogPin.P2),
     0,
     1023,
     10,
